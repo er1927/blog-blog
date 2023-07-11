@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const postsDirectory = path.join(process.cwd(), 'posts');
+const postsDirectory = path.join(process.cwd(), 'blogposts');
 
 export function getSortedPostsData() {
   // Get file names under /posts
@@ -26,6 +26,7 @@ export function getSortedPostsData() {
   });
   // Sort posts by date
   return allPostsData.sort((a, b) => {
+    // original code read: a.date < b.date, but it kept throwing an error, trying this out momentarily
     if (a < b) {
       return 1;
     } else {
