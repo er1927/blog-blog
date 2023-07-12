@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { getSortedPostsData } from '@/lib/posts';
 import ListItem  from './ListItem';
 
