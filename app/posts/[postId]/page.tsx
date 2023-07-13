@@ -1,4 +1,5 @@
-import { getSortedPostsData } from '@/lib/posts';
+import getFormattedDate from '@/lib/getFormattedDate';
+import { getSortedPostsData, getPostData } from '@/lib/posts';
 import { notFound } from "next/navigation"
 
 export  function generateMetadata({params }: {params: {postId: string } }) {
@@ -14,7 +15,7 @@ export  function generateMetadata({params }: {params: {postId: string } }) {
     }
 
     return {
-        title: post.title,
+        title: post.title
     }
 }
 
@@ -25,6 +26,10 @@ export default async function Post({params }: {params: {postId: string } }) {
   if (!posts.find(post => post.id === postId)) {
     return notFound()
   }
+
+  const { title, date, contentHtml } = await getPostData(postId)
+
+  const pubDate = getFormattedDate(date)
   return (
     <div>
       
