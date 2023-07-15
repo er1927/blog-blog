@@ -11,10 +11,10 @@ Programming is all about solving problems-and sure, sometimes you use code to sa
 But, more often than not... 
 
 
-My first time collaborating in a group setting was in a hackathon for a non-profit food delivery operation. 
-It was supposed to last 48 hours, but weeks later I was still corresponding with organizer, trying to get the JIRA credentials needed to fix general access issues. In actuality, all the time I spent working on that project I didn't type a single line of code-I communicated with designers and fellow front end developers, organizers and managers, I answered questions on the Slack channel, and I reported different tech issues as they arose-like the zoom meeting rooms kicking people out for no apparent reason. 
+My first time collaborating in a group setting was in a hackathon for a [non-profit food delivery operation](https://lasagnalove.org/). 
+It was supposed to last 48 hours, but weeks later I was still corresponding with organizer, trying to get the JIRA credentials needed to fix general access issues. In actuality, all the time I spent working on that project I didn't type a single line of code-I communicated with designers and fellow front end developers, organizers and managers, I answered questions on the Slack channel, and I reported different tech issues as they arose-like the zoom meeting rooms kicking attendees out for no apparent reason. 
 
-My second time collaborating in a group setting was for a volunteer project at Chingu. 
+My second time collaborating in a group setting was for a volunteer project at [Chingu](https://www.chingu.io/). 
 It was four of us in the beginning, and technically only two at the end. This time I did get to write code-and a lot of it, but I also ended up spending more time dealing with human beings than with VSCode.
 At first we had to deal with a teammate who claimed to be working, but who couldn't show his work. And when we managed to get that situation under control-turns out this one team member just didn't have the time to work on this project and was having a hard time accepting it- another teammate turned out to be quite underqualified for the task at hand, and, most troubling, unwilling to independently seek answers to their questions. You know, Google.
 I personally spent hours with them going over how to use Github to get the ball rolling, you know, the basics: what is a fork, what is a branch, why you need to update your code every time a merge's been approved, and so on. 
@@ -22,6 +22,6 @@ We were a week away from our deadline, and this last colleague's code was nowher
 And yes, they did manage to contribute-albeit they did drew heavily from the features as we had developed them, but we wrapped up before our deadline, and achieved a lovely MVP at that, too.
 
 So, why am I typing all of this-specially when I know I will only be using it as a sample post on all my different blog projects?
-Because the last decade I spent working in the e-learning industry has taught me how to say things to people in the best way possible for the message to come through, and as it turns out, solving problems at a communication level is about half the work.
+Because if the decade I spent working in the e-learning industry has taught me anything, it is how to be sufficiently self reliant in a crisis and how to effectively communicate with people, even when we don't speak the same language, and that's about half the responsibilities of a programmer.
 
 If you're still reading-thank you! 
